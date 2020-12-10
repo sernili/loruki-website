@@ -80,6 +80,10 @@ code, pre {
     border-bottom: 2px #fff solid;
 }
 
+#logo-link:hover {
+    border: none;
+}
+
 .navbar .flex {
     justify-content: space-between;
 }
