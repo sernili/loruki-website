@@ -335,7 +335,7 @@ footer {
     color: #fff;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
     border-radius: 50%;
-    animation: pulse 2s ease-in-out infinite;
+    animation: pulse 5s ease-in-out infinite;
     transition: 1s ease-in-out;
 }
 
@@ -503,6 +503,11 @@ footer {
 
     .navbar .flex {
         flex-direction: column;
+    }
+
+    .navbar .container {
+        height: auto;
+        padding-bottom: 20px;
     }
 
     .showcase-form {
